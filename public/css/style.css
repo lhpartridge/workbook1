@@ -1,0 +1,155 @@
+:root {
+    --pattaya: "Pattaya", sans-serif;
+    --lobster: "lobster", sans-serif;
+    --ysabeau: "ysabeau", sans-serif;
+    --gowun: "gowun", sans-serif;
+    --wix: "wix", sans-serif;
+    --manjari: "manjari", sans-serif;
+    --m2: "m-plus-2", sans-serif;
+    --arsenal:  "arsenal", sans-serif;
+    --krub: "krub", sans-serif;
+    --tenor: "tenor", sans-serif;
+    --zen: "zen", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(236, 239, 243);
+}
+
+a:hover {
+    color: rgb(201, 124, 7);
+}
+
+h1, .sub2  {
+    font-family: var(--krub);
+    font-size: 2em;
+}
+
+.sub3, .sub4, .text {
+    font-family: var(--arsenal);
+}
+
+.side-nav-sub {
+    font-size: 1.0em;
+    text-decoration: none;
+}
+
+.text {
+    font-size: 1.2em;
+}
+
+.activity-text {
+    font-family: sans-serif;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.white {
+    background-color: white;
+}
+
+.top-nav {
+    margin: 20px 0;
+}
+
+.lesson-link {
+    font-family: var(--arsenal);
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.lesson-link:hover {
+    color: rgb(190, 5, 48);
+    /* font-size: 1.3em; */
+}
+
+.vocab-list {
+    list-style-type: none;
+}
+
+.form-control {
+    border: 1px solid grey;
+}
+
+.table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+}
+
+/* .jpv-img {
+    max-height: ;
+} */
+
+#avoirex {
+    height: 65%;
+}
+
+#L1L2Image {
+    /* width: 30%; */
+}
+
+hidden {
+    display: none;
+}
+
+#jaimeMonQuartier {
+    padding: 5px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+#jeVousPresente {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 240px;
+}
+
+#coucou {
+    display: block;
+    margin: 0 auto;
+    width: 140px;
+    border-radius: 50px;
+}
+
+
+
+#L1L3Iframe, .iframe {
+    /* height: 600px; */
+    max-height: 80vh;
+    /* margin-bottom: 200px; */
+}
+
+.colophon {
+    display: block;
+    text-align: center;
+    align-content: center;
+}
+
+.copyright {
+    font-weight: 700;
+}
+
+#crowIcon {
+    margin: 10px;
+    max-width: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
