@@ -13,6 +13,11 @@ import Level1Lesson2 from "./components/Level1Lesson2"
 import Level1Lesson3 from "./components/Level1Lesson3"
 import Level1Lesson4 from "./components/Level1Lesson4"
 import Level1Lesson5 from "./components/Level1Lesson5"
+import Level1Lesson6 from "./components/Level1Lesson6"
+import Level1Lesson7 from "./components/Level1Lesson7"
+import Level1Lesson8 from "./components/Level1Lesson8"
+import Level1Lesson9 from "./components/Level1Lesson9"
+import Level1Lesson10 from "./components/Level1Lesson10"
 import Level1L1A1 from "./components/Level1L1A1"
 import Level2 from "./components/Level2"
 import Level3 from "./components/Level3"
@@ -34,6 +39,11 @@ const App =()=> {
                 <Route path="/level1lesson3" element={<Level1Lesson3 /> } />
                 <Route path="/level1lesson4" element={<Level1Lesson4 /> } />
                 <Route path="/level1lesson5" element={<Level1Lesson5 /> } />
+                <Route path="/level1lesson6" element={<Level1Lesson6 /> } />
+                <Route path="/level1lesson7" element={<Level1Lesson7 /> } />
+                <Route path="/level1lesson8" element={<Level1Lesson8 /> } />
+                <Route path="/level1lesson9" element={<Level1Lesson9 /> } />
+                <Route path="/level1lesson10" element={<Level1Lesson10 /> } />
                 <Route path="/level2" element={ <Level2 /> } />
                 <Route path="/level3" element={ <Level3 /> } />
                 <Route path="/resources" element={ <Resources /> } />

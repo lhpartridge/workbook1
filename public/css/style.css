@@ -27,6 +27,10 @@ a:hover {
     color: rgb(201, 124, 7);
 }
 
+li {
+    /* border: 1px solid black; */
+}
+
 h1, .sub2  {
     font-family: var(--krub);
     font-size: 2em;
@@ -47,6 +51,7 @@ h1, .sub2  {
 
 .activity-text {
     font-family: sans-serif;
+    font-size: 1.1em;
 }
 
 .bold {
@@ -105,9 +110,13 @@ h1, .sub2  {
     /* width: 30%; */
 }
 
-hidden {
-    display: none;
+#manWoman {
+    border-radius: 20%;
 }
+
+/* .hidden {
+    display: none;
+} */
 
 #jaimeMonQuartier {
     padding: 5px;

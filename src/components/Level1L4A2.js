@@ -88,7 +88,466 @@ const Level1L4A2 =()=> {
                                     <p className="text solution-text d-none" hidden id="L1L4A2I1s">Amidou, 25 ans.</p>
                                 </div>
                             </div>
-                        </li>        
+                        </li> 
+                        <li className="list-item activity-item" id="l1-l4-a2-i1">
+                            <div className="row justify-content-around">
+                                <div className="col-md-2">
+                                    <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                                </div>
+                                <div className="col-md-3">
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">Pr&eacute;nom
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>   
+                                </div>
+                                {/* <div className="col-md-3">
+                                <label htmlFor="l1-l4-a2-i1" className="form-label text">Nom de famille
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div> */}
+                                <div className="col-md-2">
+                                    {/* <p className="text activity-text">There is a boy in my school</p> */}
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">&Acirc;ge
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="3"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div>
+                                <div className="col-md-5">
+                                    <p className="text solution-text"  id="L1L4A2I1"><span className="align-text-bottom">Solution</span></p>
+                                    <p className="text solution-text d-none" hidden id="L1L4A2I1s">Amidou, 25 ans.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="list-item activity-item" id="l1-l4-a2-i1">
+                            <div className="row justify-content-around">
+                                <div className="col-md-2">
+                                    <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                                </div>
+                                <div className="col-md-3">
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">Pr&eacute;nom
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>   
+                                </div>
+                                {/* <div className="col-md-3">
+                                <label htmlFor="l1-l4-a2-i1" className="form-label text">Nom de famille
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div> */}
+                                <div className="col-md-2">
+                                    {/* <p className="text activity-text">There is a boy in my school</p> */}
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">&Acirc;ge
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="3"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div>
+                                <div className="col-md-5">
+                                    <p className="text solution-text"  id="L1L4A2I1"><span className="align-text-bottom">Solution</span></p>
+                                    <p className="text solution-text d-none" hidden id="L1L4A2I1s">Amidou, 25 ans.</p>
+                                </div>
+                            </div>
+                        </li> 
+                        <li className="list-item activity-item" id="l1-l4-a2-i1">
+                            <div className="row justify-content-around">
+                                <div className="col-md-2">
+                                    <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                                </div>
+                                <div className="col-md-3">
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">Pr&eacute;nom
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>   
+                                </div>
+                                {/* <div className="col-md-3">
+                                <label htmlFor="l1-l4-a2-i1" className="form-label text">Nom de famille
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div> */}
+                                <div className="col-md-2">
+                                    {/* <p className="text activity-text">There is a boy in my school</p> */}
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">&Acirc;ge
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="3"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div>
+                                <div className="col-md-5">
+                                    <p className="text solution-text"  id="L1L4A2I1"><span className="align-text-bottom">Solution</span></p>
+                                    <p className="text solution-text d-none" hidden id="L1L4A2I1s">Amidou, 25 ans.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="list-item activity-item" id="l1-l4-a2-i1">
+                            <div className="row justify-content-around">
+                                <div className="col-md-2">
+                                    <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                                </div>
+                                <div className="col-md-3">
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">Pr&eacute;nom
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>   
+                                </div>
+                                {/* <div className="col-md-3">
+                                <label htmlFor="l1-l4-a2-i1" className="form-label text">Nom de famille
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div> */}
+                                <div className="col-md-2">
+                                    {/* <p className="text activity-text">There is a boy in my school</p> */}
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">&Acirc;ge
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="3"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div>
+                                <div className="col-md-5">
+                                    <p className="text solution-text"  id="L1L4A2I1"><span className="align-text-bottom">Solution</span></p>
+                                    <p className="text solution-text d-none" hidden id="L1L4A2I1s">Amidou, 25 ans.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="list-item activity-item" id="l1-l4-a2-i1">
+                            <div className="row justify-content-around">
+                                <div className="col-md-2">
+                                    <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                                </div>
+                                <div className="col-md-3">
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">Pr&eacute;nom
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>   
+                                </div>
+                                {/* <div className="col-md-3">
+                                <label htmlFor="l1-l4-a2-i1" className="form-label text">Nom de famille
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div> */}
+                                <div className="col-md-2">
+                                    {/* <p className="text activity-text">There is a boy in my school</p> */}
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">&Acirc;ge
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="3"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div>
+                                <div className="col-md-5">
+                                    <p className="text solution-text"  id="L1L4A2I1"><span className="align-text-bottom">Solution</span></p>
+                                    <p className="text solution-text d-none" hidden id="L1L4A2I1s">Amidou, 25 ans.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="list-item activity-item" id="l1-l4-a2-i1">
+                            <div className="row justify-content-around">
+                                <div className="col-md-2">
+                                    <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                                </div>
+                                <div className="col-md-3">
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">Pr&eacute;nom
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>   
+                                </div>
+                                {/* <div className="col-md-3">
+                                <label htmlFor="l1-l4-a2-i1" className="form-label text">Nom de famille
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div> */}
+                                <div className="col-md-2">
+                                    {/* <p className="text activity-text">There is a boy in my school</p> */}
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">&Acirc;ge
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="3"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div>
+                                <div className="col-md-5">
+                                    <p className="text solution-text"  id="L1L4A2I1"><span className="align-text-bottom">Solution</span></p>
+                                    <p className="text solution-text d-none" hidden id="L1L4A2I1s">Amidou, 25 ans.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="list-item activity-item" id="l1-l4-a2-i1">
+                            <div className="row justify-content-around">
+                                <div className="col-md-2">
+                                    <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                                </div>
+                                <div className="col-md-3">
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">Pr&eacute;nom
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>   
+                                </div>
+                                {/* <div className="col-md-3">
+                                <label htmlFor="l1-l4-a2-i1" className="form-label text">Nom de famille
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div> */}
+                                <div className="col-md-2">
+                                    {/* <p className="text activity-text">There is a boy in my school</p> */}
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">&Acirc;ge
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="3"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div>
+                                <div className="col-md-5">
+                                    <p className="text solution-text"  id="L1L4A2I1"><span className="align-text-bottom">Solution</span></p>
+                                    <p className="text solution-text d-none" hidden id="L1L4A2I1s">Amidou, 25 ans.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="list-item activity-item" id="l1-l4-a2-i1">
+                            <div className="row justify-content-around">
+                                <div className="col-md-2">
+                                    <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                                </div>
+                                <div className="col-md-3">
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">Pr&eacute;nom
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>   
+                                </div>
+                                {/* <div className="col-md-3">
+                                <label htmlFor="l1-l4-a2-i1" className="form-label text">Nom de famille
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div> */}
+                                <div className="col-md-2">
+                                    {/* <p className="text activity-text">There is a boy in my school</p> */}
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">&Acirc;ge
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="3"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div>
+                                <div className="col-md-5">
+                                    <p className="text solution-text"  id="L1L4A2I1"><span className="align-text-bottom">Solution</span></p>
+                                    <p className="text solution-text d-none" hidden id="L1L4A2I1s">Amidou, 25 ans.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="list-item activity-item" id="l1-l4-a2-i1">
+                            <div className="row justify-content-around">
+                                <div className="col-md-2">
+                                    <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                                </div>
+                                <div className="col-md-3">
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">Pr&eacute;nom
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>   
+                                </div>
+                                {/* <div className="col-md-3">
+                                <label htmlFor="l1-l4-a2-i1" className="form-label text">Nom de famille
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="30"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div> */}
+                                <div className="col-md-2">
+                                    {/* <p className="text activity-text">There is a boy in my school</p> */}
+                                    <label htmlFor="l1-l4-a2-i1" className="form-label text">&Acirc;ge
+                                    <input 
+                                            type="text" 
+                                            id="l1-l4-a2-i1"
+                                            name="l1-l4-a2-i1"
+                                            value=""
+                                            size="3"
+                                            className="form-control"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </div>
+                                <div className="col-md-5">
+                                    <p className="text solution-text"  id="L1L4A2I1"><span className="align-text-bottom">Solution</span></p>
+                                    <p className="text solution-text d-none" hidden id="L1L4A2I1s">Amidou, 25 ans.</p>
+                                </div>
+                            </div>
+                        </li>     
                     </ol>
                     <button 
                         type="submit" 
