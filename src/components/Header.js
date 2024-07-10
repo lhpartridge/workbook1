@@ -6,12 +6,12 @@ const Header =()=> {
         <>
             <header className="header" id="header">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-8">
+                    <div className="row justify-content-between">
+                        <div className="col-md-4">
                             <h1 className="heading text-capitalize">cahier</h1>
                             {/* <img src="../media/tourEiffel.jpg" alt="" className="logo img-fluid"/> */}
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-8">
                             <nav className="top-nav">
                                 <ul className="nav justify-content-center justify-content-md-end">
                                     <li className="nav-item me-2">
@@ -38,6 +38,11 @@ const Header =()=> {
                                         <Link 
                                             to="/resources"
                                             style={{textDecoration: 'none', textTransform: 'capitalize'}}>ressources</Link>
+                                    </li>
+                                    <li className="nav-item me-2">
+                                        <Link 
+                                            to="/music"
+                                            style={{textDecoration: 'none', textTransform: 'capitalize'}}>Musique</Link>
                                     </li>
                                 </ul>
                             </nav>

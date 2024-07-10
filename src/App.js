@@ -22,6 +22,7 @@ import Level1L1A1 from "./components/Level1L1A1"
 import Level2 from "./components/Level2"
 import Level3 from "./components/Level3"
 import Resources from "./components/Resources"
+import Music from "./components/Music"
 import Error from "./components/Error"
 
 const App =()=> {
@@ -47,6 +48,7 @@ const App =()=> {
                 <Route path="/level2" element={ <Level2 /> } />
                 <Route path="/level3" element={ <Level3 /> } />
                 <Route path="/resources" element={ <Resources /> } />
+                <Route path="/music" element={ <Music /> } />
                 <Route path="*" element={ <Error /> } />
             </Routes>
             <Footer />
